@@ -1,0 +1,11 @@
+- hosts: localhost
+  connection: local
+  roles:
+    - role: gantsign.atom-packages
+      users:
+        - username: fukumotodai
+          atom_packages:
+            - minimap
+            - linter
+            - atom-beautify
+            - file-icons
